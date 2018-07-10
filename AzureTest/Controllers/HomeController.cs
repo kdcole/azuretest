@@ -11,7 +11,7 @@ namespace AzureTest.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            System.Diagnostics.Trace.TraceInformation("Testing");
             return View();
         }
     }
